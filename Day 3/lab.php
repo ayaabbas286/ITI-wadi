@@ -13,6 +13,7 @@ foreach($values as $lang){
     echo $lang."<br>";
 }
 echo "<hr>";
+echo "Please Add your Info";
 $info=["Name"=>"Aya_Abbas","Age"=>"25","Email"=>"ayaabbas626@gmail.com","Collage"=>"Faculty of Law"];
 echo "<table border='1' width='50%'>";
 foreach ($info as $key => $value) {

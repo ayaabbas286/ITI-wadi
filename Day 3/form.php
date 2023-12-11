@@ -6,7 +6,8 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
-        body {
+        body
+        {
             font-family: Arial, sans-serif;
             margin: 20px;
         }
@@ -43,9 +44,9 @@
 <form method="post" action="data.php">
     <div class="mb-3">
         <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname">
+        <input type="text" id="fname" name="fn">
         <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname">
+        <input type="text" id="lname" name="ln">
     </div>
     <p>Address</p>
     <div class="mb-3">
@@ -56,8 +57,10 @@
         <select id="country" name="country">
             <option value="">Select Country</option>
             <option value="Egypt">Egypt</option>
-            <option value="China">China</option>
-            <option value="Brazil">Brazil</option>
+            <option value="USA">USA</option>
+            <option value="Jordon">Jordon</option>
+            <option value="Italy">Italy</option>
+
         </select>
     </div>
     <div class="mb-3">
@@ -69,13 +72,13 @@
     </div>
     <p>SKILLS</p>
     <div class="mb-3">
-        <input type="checkbox" id="php" name="php" value="PHP">
+        <input type="checkbox" id="php" name="skills[]" value="PHP">
         <label for="php"> PHP</label><br>
-        <input type="checkbox" id="J2se" name="J2se" value="J2SE">
+        <input type="checkbox" id="J2se" name="skills[]" value="J2SE">
         <label for="J2se"> J2SE</label><br>
-        <input type="checkbox" id="mysql" name="mysql" value="MYSQL">
+        <input type="checkbox" id="mysql" name="skills[]" value="MYSQL">
         <label for="mysql"> MYSQL</label><br>
-        <input type="checkbox" id="sql" name="sql" value="SQL">
+        <input type="checkbox" id="sql" name="skills[]" value="SQL">
         <label for="sql"> SQL</label>
     </div>
     <input type="submit" value="Submit">

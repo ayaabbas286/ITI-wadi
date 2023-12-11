@@ -18,25 +18,19 @@ echo "<table border='1' width='40%' align='center'>
  <tr>
    <td>Name </td>
   <td>
-  
-  <?php
-  $info=["Name"=>"Aya_Abbas","Age"=>"25","Email"=>"ayaabbas626@gmail.com","Collage"=>"Faculty of Law"];
-
-  
-  ?>
 </td>
  </tr>
  <tr>
      <td>Age</td>
-   <td>1200$</td>
+   <td></td>
  </tr>
  <tr>
      <td>Email </td>
-     <td>1400$</td>
+     <td></td>
  </tr>
 <tr>
    <td>Collage </td>
-     <td>1400$</td>
+     <td></td>
  </tr>
      </table>";
 echo "<hr>";
